@@ -238,5 +238,5 @@ if __name__ == "__main__":
     assert(climbing_stairs(6) == 13)
     assert(climbing_stairs(26) == 196_418)
     assert(climbing_stairs(45) == 1_836_311_903)
-    assert(climbing_stairs(47) == 480_7526_976)
+    assert(climbing_stairs(47) == 4_807_526_976)
     print("Exercice 12+BONUS - climbing_stairs validée ! ✔")
