@@ -217,6 +217,10 @@ if __name__ == "__main__":
     assert(valid_parenthesis("()((") == False)
     assert(valid_parenthesis("(())()))") == False)
     assert(valid_parenthesis("(()()") == False)
+    assert(valid_parenthesis("[]]") == False)
+    assert(valid_parenthesis("[][][[[]]]") == True)
+    assert(valid_parenthesis("{{}") == False)
+    assert(valid_parenthesis("{{}}{}{}") == True)
     print("Exercice 10+BONUS - valid_parenthesis validée ! ✔")
 
     ## Check] Exercice 11
