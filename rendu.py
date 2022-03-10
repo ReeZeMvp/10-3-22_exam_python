@@ -1,5 +1,4 @@
 from math import log10
-from pydoc import cli
 ## Exercice 1
 def carre(x):
     return x**2
